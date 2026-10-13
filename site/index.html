@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leilões Londrina</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.min.css">
+<link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+<header>
+  <h1>Leilões — Londrina e região</h1>
+  <span id="atualizado"></span>
+  <button id="btn-filtros" type="button" aria-expanded="false">Filtros</button>
+  <button id="btn-lista" type="button" aria-expanded="false">Sem mapa (<span id="n-sem">0</span>)</button>
+</header>
+
+<section id="filtros" hidden>
+  <label>Preço mín. (R$) <input id="f-min" type="number" min="0" step="10000" inputmode="numeric"></label>
+  <label>Preço máx. (R$) <input id="f-max" type="number" min="0" step="10000" inputmode="numeric"></label>
+  <label>Cidade <select id="f-cidade"><option value="">todas</option></select></label>
+  <label>Tipo <select id="f-tipo"><option value="">todos</option></select></label>
+  <label>Modalidade <select id="f-mod"><option value="">todas</option></select></label>
+  <label>Desconto mínimo (%) <input id="f-desc" type="number" min="0" max="100" step="5" inputmode="numeric"></label>
+  <label class="check"><input id="f-novos" type="checkbox"> só novos</label>
+  <button id="limpar" type="button">Limpar</button>
+  <p id="contagem"></p>
+</section>
+
+<aside id="lista" hidden>
+  <h2>Sem coordenada</h2>
+  <p class="nota">Estes imóveis não têm endereço que o mapa consiga localizar.</p>
+  <ul id="lista-itens"></ul>
+</aside>
+
+<div id="mapa"></div>
+<div id="legenda"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="data/imoveis.js?v=6"></script>
+<script src="app.js?v=6"></script>
+</body>
+</html>

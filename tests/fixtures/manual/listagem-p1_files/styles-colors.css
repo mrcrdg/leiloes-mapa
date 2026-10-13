@@ -1,0 +1,10 @@
+:root{
+    /* variaveis de imagens */
+    --styles_img1:url("/img/li/bx_right-arrow.svg");
+    --styles_img2:url("/img/li/range-button.svg");
+    --styles_img3:url("/img/li/bi_check.svg");
+    --styles_img4:url("/img/li/vector_tertiary_color-alternative.svg");
+    --styles_img5:url("/img/li/vector1.svg");
+    --styles_img6:url("/img/li/vector2.svg");
+    --styles_img7:url("/img/li/vector_primary_color.svg");
+}

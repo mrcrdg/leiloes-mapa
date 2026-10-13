@@ -1,0 +1,122 @@
+:root {
+  /* variaveis de cores */
+  --find_color1: #fff;
+  --find_color2: #bdc3c7;
+  --find_color3: #035f79;
+  --find_color4: #545454;
+  --find_color5: #e4ecf2;
+  --find_color6: #228882;
+  --find_color7: #f7845c;
+  --find_color8: #a0b6c0;
+  --find_color9: #5c727d;
+  --find_color10: #f4f4f4;
+  --find_color11: #3b5998;
+  --find_color12: #34af23;
+  --find_color13: #00acee;
+  --find_color14: #026078;
+  --find_color15: #f7855c;
+  --find_color16: #237145;
+  --find_color17: #545454;
+  --find-color18: #d7a000;
+
+  /* variaveis de imagens */
+  --find_img1: url("../img/li/vector_primary_color.svg");
+  --find_img2: url("../img/li/vector_tertiary_color.svg");
+  --find_img3: url("../img/li/bx_right-arrow.svg");
+}
+/* classes de cores */
+.selected-background-color {
+  background: var(--find_color6);
+}
+
+.interactive-background-find7 {
+  background: var(--find_color7);
+}
+
+.interactive-background-find14 {
+  background: var(--find_color14);
+}
+
+.interactive-background-find17 {
+  background: var(--find_color17);
+}
+
+.interactive-background-find18 {
+  background: var(--find-color18);
+}
+
+.interactive-background-find7:hover,
+.interactive-background-find14:hover,
+.interactive-background-find17:hover,
+.interactive-background-find18:hover {
+  filter: brightness(90%)
+}
+
+.selected-text-color {
+  color: var(--find_color1);
+}
+
+.border-find14 {
+  border: 1px solid var(--find_color14) !important;
+}
+
+.border-none {
+  border: 0px solid transparent !important;
+}
+
+.no-hover:disabled,  .no-hover:hover, .no-hover:focus, .no-hover:active {
+  background: transparent !important;
+  color: inherit !important;
+  cursor: not-allowed !important;
+}
+
+.disabled-border {
+  border: 1px solid #cccccc !important;
+}
+
+.disabled-color {
+  color: #cccccc;
+}
+
+/*
+    Cor 1 esta é utilizada principalmente para os itens do card de imóveis, como fontes em elementos contrastantes
+    e background de elementos como botão favoritar e discartar e também as fontes principais da página
+    
+    cor 2 é o hover das tags dos cards de imóveis
+    
+    cor 3 cor de algumas fonte da página, cor principal da newlesster da página de pesquisa e muito utilizada
+    na bordas e coloração dos botões da página, como os botões de paginação ou os de selecionar e descartar imóvel
+    
+    cor 4 é a cor dos elementos textuais da página como as informações do imóvel no card e a descrição
+    da taxonomya mostrada na busca abaixo do título
+    
+    cor 5 é a hover dos cards de imóveis
+    
+    cor 6 é a cor usada na bandeirinha de novo dos imóveis e no item que o mostra a % de desconto no imóvel 
+    em seu card
+    
+    cor 7 é a cor responsavel pela mensage de data de encerramento no card a cor da fonte do valor em desconto
+    a cor do botão de compartilhar e a tag de ordenação, o botão da newsletter e também do titulo da informação 
+    fica abaixo a página de busca de uma taxonimia
+    
+    cor 8 é a cor responsavel pelo linha que separa os elementos textuais dos cards, que está no select do ordernar lista
+    e em algumas fontes
+    
+    cor 9 é a responsavel pelos subtitulos e os itens bold <b> da página
+    
+    cor 10 é a cor de background do botão de compartilhar
+    
+    cor 11 opção 1 do botão compartilhar
+    
+    cor 12 opção 2 do botão compartilhar
+    
+    cor 13 opção 3 do botão compartilhar
+    
+    cor 14 é a cor azul usada no botão de ordenação e na troca entre listagem e galeria
+    
+    cor 15 é a cor laranja usada no botão de troca enre listagem e galeria
+    
+    cor 16 é a cor verde usada no botão de exportar para planilha
+
+    cor 17 é a cor usada de background do venda-direta-info-box que fica nas paginas de taxonomias
+*/

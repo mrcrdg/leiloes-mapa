@@ -1,0 +1,448 @@
+{
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"183 RUA SAMPAIO VIDAL\"}": {
+  "lat": -23.2955554,
+  "lng": -51.1494375,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA SAMPAIO VIDAL\"}": {
+  "lat": -23.2955554,
+  "lng": -51.1494375,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"53 RUA ATILIO PRUDENTE DE MELLO\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA ATILIO PRUDENTE DE MELLO\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"13983 RODOVIA CARLOS JOAO STRASS\"}": {
+  "lat": -23.2157401,
+  "lng": -51.1776278,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RODOVIA CARLOS JOAO STRASS\"}": {
+  "lat": -23.2157401,
+  "lng": -51.1776278,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"638 RUA JOAQUIM MURTINHO\"}": {
+  "lat": -23.3111967,
+  "lng": -51.2102788,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA JOAQUIM MURTINHO\"}": {
+  "lat": -23.3111967,
+  "lng": -51.2102788,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"899 AVENIDA ROSALVO MARQUES BONFIM\"}": {
+  "lat": -23.2630513,
+  "lng": -51.1993672,
+  "tipo": "place"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"113 RUA ANTONIA RODRIGUES ARANDA\"}": {
+  "lat": -23.278906,
+  "lng": -51.1455037,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA ANTONIA RODRIGUES ARANDA\"}": {
+  "lat": -23.278906,
+  "lng": -51.1455037,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Carlos Gomes 171\"}": {
+  "lat": -23.3288669,
+  "lng": -51.1601299,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Humberto Piccini\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"1305 Rua Deputado Nilson Ribas\"}": {
+  "lat": -23.3085832,
+  "lng": -51.1863379,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Deputado Nilson Ribas\"}": {
+  "lat": -23.3085832,
+  "lng": -51.1863379,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"261 Rua Maria Da Costa Cunha\"}": {
+  "lat": -23.320651,
+  "lng": -51.1196233,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Maria Da Costa Cunha\"}": {
+  "lat": -23.320651,
+  "lng": -51.1196233,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"337 Rua Uberlandia\"}": {
+  "lat": -23.3101809,
+  "lng": -51.1899211,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Uberlandia\"}": {
+  "lat": -23.3101809,
+  "lng": -51.1899211,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"171 Avenida Carlos Gomes\"}": {
+  "lat": -23.3288669,
+  "lng": -51.1601299,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Carlos Gomes\"}": {
+  "lat": -23.3288669,
+  "lng": -51.1601299,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Zircônio\"}": {
+  "lat": -23.3030772,
+  "lng": -51.1352828,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"170 Rua Haroldo de Freitas\"}": {
+  "lat": -23.2833514,
+  "lng": -51.1827606,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Haroldo de Freitas\"}": {
+  "lat": -23.2833514,
+  "lng": -51.1827606,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"110 Rua Manoel Borges Leão\"}": {
+  "lat": -23.3190463,
+  "lng": -51.2188755,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Manoel Borges Leão\"}": {
+  "lat": -23.3190463,
+  "lng": -51.2188755,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"276 Alameda Angelim\"}": {
+  "lat": -23.3576623,
+  "lng": -51.1846037,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Alameda Angelim\"}": {
+  "lat": -23.3576623,
+  "lng": -51.1846037,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"371 Avenida Deputado Nilson Ribas\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Deputado Nilson Ribas\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Arcebispo Dom Geraldo Fernandes 2.330 Predio comercial\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"244 Rua Maurício Coelho Lima\"}": {
+  "lat": -23.2842086,
+  "lng": -51.1997797,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Maurício Coelho Lima\"}": {
+  "lat": -23.2842086,
+  "lng": -51.1997797,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"244 Rua Mauricio Coelho Lima\"}": {
+  "lat": -23.2842086,
+  "lng": -51.1997797,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Mauricio Coelho Lima\"}": {
+  "lat": -23.2842086,
+  "lng": -51.1997797,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"233 rua Ettore Pistori\"}": {
+  "lat": -23.2469064,
+  "lng": -51.140168,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Ettore Pistori\"}": {
+  "lat": -23.2469064,
+  "lng": -51.140168,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"121 rua Maria Sinopoli Francovig\"}": {
+  "lat": -23.2680086,
+  "lng": -51.1448002,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Maria Sinopoli Francovig\"}": {
+  "lat": -23.2680086,
+  "lng": -51.1448002,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Matilde Benício Pinto\"}": {
+  "lat": -23.2740068,
+  "lng": -51.1887399,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"98 rua Nelson Lotz\"}": {
+  "lat": -23.2783124,
+  "lng": -51.1124016,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Nelson Lotz\"}": {
+  "lat": -23.2783124,
+  "lng": -51.1124016,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"129 rua Henrique Brunelli\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Henrique Brunelli\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"242 rua Danyelle Boucas Fernandes\"}": {
+  "lat": -23.2799815,
+  "lng": -51.1479753,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Danyelle Boucas Fernandes\"}": {
+  "lat": -23.2799815,
+  "lng": -51.1479753,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"2330 Avenida Arcebispo Dom Geraldo Fernandes\"}": {
+  "lat": -23.3078568,
+  "lng": -51.1621799,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Arcebispo Dom Geraldo Fernandes\"}": {
+  "lat": -23.3078568,
+  "lng": -51.1621799,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"rua Santo Tamioso\"}": {
+  "lat": -23.2587566,
+  "lng": -51.1815413,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"205 Rua José Monteiro de Mello\"}": {
+  "lat": -23.3268394,
+  "lng": -51.1784136,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua José Monteiro de Mello\"}": {
+  "lat": -23.3268394,
+  "lng": -51.1784136,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"353 Rua Quero-Quero\"}": {
+  "lat": -23.2646919,
+  "lng": -51.1530572,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Quero-Quero\"}": {
+  "lat": -23.2646919,
+  "lng": -51.1530572,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"129 Rua Maurício de Paula\"}": {
+  "lat": -23.2540034,
+  "lng": -51.1732168,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Maurício de Paula\"}": {
+  "lat": -23.2540034,
+  "lng": -51.1732168,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"57 Rua Orivaldo Frois Motta\"}": {
+  "lat": -23.2758374,
+  "lng": -51.1906773,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Orivaldo Frois Motta\"}": {
+  "lat": -23.2758374,
+  "lng": -51.1906773,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"155 Rua Dr. Dimas de Barros\"}": {
+  "lat": -23.3366333,
+  "lng": -51.1761253,
+  "tipo": "building"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua D\"}": {
+  "lat": -23.6086984,
+  "lng": -51.181433,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"1162 Avenida Paul Harris\"}": {
+  "lat": -23.3199978,
+  "lng": -51.1431932,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Paul Harris\"}": {
+  "lat": -23.3199978,
+  "lng": -51.1431932,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"197 Rua Filippo Foggia\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Filippo Foggia\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"260 Rua João Marques da Silva\"}": {
+  "lat": -23.2493896,
+  "lng": -51.1886034,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua João Marques da Silva\"}": {
+  "lat": -23.2525298,
+  "lng": -51.1886054,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"240 RUA ANTÔNIO ALVES REZENDE\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA ANTÔNIO ALVES REZENDE\"}": null,
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"300 RUA ANDRÉ EMÍLIO GUERGOLETTO\"}": {
+  "lat": -23.2798262,
+  "lng": -51.1758034,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"RUA ANDRÉ EMÍLIO GUERGOLETTO\"}": {
+  "lat": -23.2798262,
+  "lng": -51.1758034,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Avenida Café Rubiacea\"}": {
+  "lat": -23.2625739,
+  "lng": -51.1891126,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"154 Rua Barão de Loreto\"}": {
+  "lat": -23.331121,
+  "lng": -51.1542212,
+  "tipo": "road"
+ },
+ "{\"city\": \"Londrina\", \"state\": \"Paraná\", \"street\": \"Rua Barão de Loreto\"}": {
+  "lat": -23.331121,
+  "lng": -51.1542212,
+  "tipo": "road"
+ },
+ "{\"q\": \"Terra Nova, Londrina, Paraná, Brasil\"}": {
+  "lat": -23.2426316,
+  "lng": -51.1597275,
+  "tipo": "suburb"
+ },
+ "{\"q\": \"Nova, Londrina, Paraná, Brasil\"}": {
+  "lat": -23.2426316,
+  "lng": -51.1597275,
+  "tipo": "suburb"
+ },
+ "{\"q\": \"Bancários, Londrina, Paraná, Brasil\"}": null,
+ "{\"q\": \"Conjunto Alexandre Urbanas, Londrina, Paraná, Brasil\"}": {
+  "lat": -23.3147206,
+  "lng": -51.113342,
+  "tipo": "neighbourhood"
+ },
+ "{\"q\": \"Jardim Ilha do Mel, Londrina, Paraná, Brasil\"}": {
+  "lat": -23.2651385,
+  "lng": -51.189459,
+  "tipo": "neighbourhood"
+ },
+ "{\"q\": \"Jardim Tropical, Londrina, Paraná, Brasil\"}": null,
+ "{\"q\": \"Centro, Londrina, Paraná, Brasil\"}": {
+  "lat": -23.3138659,
+  "lng": -51.1620802,
+  "tipo": "suburb"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"87 RUA ROSA TRIBULATO BISSOQUI\"}": {
+  "lat": -23.2969611,
+  "lng": -51.2499358,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"RUA ROSA TRIBULATO BISSOQUI\"}": {
+  "lat": -23.2969611,
+  "lng": -51.2499358,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"RUA RICARDO TROMBELI\"}": {
+  "lat": -23.264243,
+  "lng": -51.2606574,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"192 Rua Alcebiades Zotareli\"}": {
+  "lat": -23.2685276,
+  "lng": -51.2952838,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"Rua Alcebiades Zotareli\"}": {
+  "lat": -23.2685276,
+  "lng": -51.2952838,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"70 Rua José Firmino Sales\"}": {
+  "lat": -23.2921381,
+  "lng": -51.2697634,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"Rua José Firmino Sales\"}": {
+  "lat": -23.2921381,
+  "lng": -51.2697634,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"34 Rua Flavio Ferreira dos Santos\"}": null,
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"Rua Flavio Ferreira dos Santos\"}": null,
+ "{\"q\": \"Parque Res. Ana Rosa, Cambé, Paraná, Brasil\"}": null,
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"25 Rua da Figueira\"}": {
+  "lat": -23.273874,
+  "lng": -51.273969,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"Rua da Figueira\"}": {
+  "lat": -23.273874,
+  "lng": -51.273969,
+  "tipo": "road"
+ },
+ "{\"city\": \"Cambé\", \"state\": \"Paraná\", \"street\": \"Estrada da Bratislava\"}": {
+  "lat": -23.3062473,
+  "lng": -51.2825168,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"RUA MARIA ANTONELI DE LIMA\"}": {
+  "lat": -23.287543,
+  "lng": -51.3783055,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"298 Avenida Salgado Filho\"}": {
+  "lat": -23.3143844,
+  "lng": -51.3702959,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"Avenida Salgado Filho\"}": {
+  "lat": -23.3143837,
+  "lng": -51.3702249,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"11 Rua Antúrios\"}": {
+  "lat": -23.3205641,
+  "lng": -51.3685304,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"Rua Antúrios\"}": {
+  "lat": -23.3205641,
+  "lng": -51.3685304,
+  "tipo": "road"
+ },
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"Rua Graciosa Chácara Costa do Sol\"}": null,
+ "{\"q\": \"Jardim Costa do Sol, Rolândia, Paraná, Brasil\"}": null,
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"260 Avenida Oswald Nixdorf\"}": null,
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"Avenida Oswald Nixdorf\"}": null,
+ "{\"city\": \"Rolândia\", \"state\": \"Paraná\", \"street\": \"Rua Petúnias\"}": {
+  "lat": -23.3165523,
+  "lng": -51.3980364,
+  "tipo": "road"
+ },
+ "{\"city\": \"Ibiporã\", \"state\": \"Paraná\", \"street\": \"188 RUA EFIGENIA DE JESUS QUEIROZ NEIVA\"}": {
+  "lat": -23.2820437,
+  "lng": -51.0160878,
+  "tipo": "road"
+ },
+ "{\"city\": \"Ibiporã\", \"state\": \"Paraná\", \"street\": \"RUA EFIGENIA DE JESUS QUEIROZ NEIVA\"}": {
+  "lat": -23.2820437,
+  "lng": -51.0160878,
+  "tipo": "road"
+ },
+ "{\"city\": \"Ibiporã\", \"state\": \"Paraná\", \"street\": \"Rua Curitiba\"}": {
+  "lat": -23.2695792,
+  "lng": -51.0407092,
+  "tipo": "road"
+ },
+ "{\"city\": \"Ibiporã\", \"state\": \"Paraná\", \"street\": \"Rua Eduardo Reginato\"}": {
+  "lat": -23.2608899,
+  "lng": -51.0466091,
+  "tipo": "road"
+ }
+}
