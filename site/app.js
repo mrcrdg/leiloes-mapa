@@ -19,7 +19,7 @@
   L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19, referrerPolicy: "strict-origin-when-cross-origin", attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(mapa);
-  const grupo = L.markerClusterGroup({ maxClusterRadius: 40 }).addTo(mapa);
+  const grupo = L.markerClusterGroup({ maxClusterRadius: 40, removeOutsideVisibleBounds: false }).addTo(mapa);
 
   const fotoRemotaOk = u => /^https:\/\/image\.leilaoimovel\.com\.br\//.test(u || "");
   function fotoHtml(i) {
@@ -35,6 +35,7 @@
     return `<div class="pop">
       ${fotoHtml(i)}
       <h3>${esc(i.titulo)}</h3>${i.novo ? "<b>NOVO</b>" : ""}
+      <a class="ver" href="${esc(seguro(i.url_anuncio))}" target="_blank" rel="noopener">Ver anúncio</a>
       <div>${esc(i.endereco || "Endereço não informado")}${i.bairro ? " — " + esc(i.bairro) : ""} · ${esc(i.cidade)}</div>
       <dl>
         <dt>Tipo</dt><dd>${esc(i.tipo || "—")}</dd>
@@ -46,7 +47,7 @@
         ${i.area_m2 ? `<dt>Área</dt><dd>${i.area_m2.toLocaleString("pt-BR")} m²</dd>` : ""}
         ${i.ocupado != null ? `<dt>Ocupado</dt><dd>${i.ocupado ? "sim" : "não"}</dd>` : ""}
       </dl>${aviso}
-      <a class="ver" href="${esc(seguro(i.url_anuncio))}" target="_blank" rel="noopener">Ver anúncio</a></div>`;
+    </div>`;
   }
 
   function precoCurto(v) {
@@ -62,7 +63,7 @@
       className: "", iconSize: [92, 28], iconAnchor: [46, 14], popupAnchor: [0, -15],
       html: `<div class="${classes}" style="background:${cor(i)}">${esc(precoCurto(i.preco))}</div>`
     });
-    return L.marker([i.lat, i.lng], { icon: icone }).bindPopup(popup(i), { maxWidth: 260 });
+    return L.marker([i.lat, i.lng], { icon: icone }).bindPopup(popup(i), { maxWidth: 260, maxHeight: Math.round(Math.min(380, window.innerHeight * 0.6)), autoPanPaddingTopLeft: [10, 70], autoPanPaddingBottomRight: [10, 40] });
   }
 
   function preencher(sel, valores) {
@@ -83,11 +84,12 @@
       (!novos || i.novo));
   }
 
-  function desenhar() {
+  function desenhar(enquadrar = false) {
     const sel = filtrados();
     grupo.clearLayers();
     const com = sel.filter(i => i.lat != null && i.lng != null), sem = sel.filter(i => i.lat == null || i.lng == null);
     grupo.addLayers(com.map(pino));
+    if (enquadrar === true && com.length) mapa.fitBounds(L.latLngBounds(com.map(i => [i.lat, i.lng])), { padding: [30, 30], maxZoom: 15 });
     $("n-sem").textContent = sem.length;
     $("contagem").textContent = `${sel.length} de ${todos.length} imóveis · ${com.length} no mapa · ${sem.length} sem coordenada`;
     const ul = $("lista-itens");
@@ -101,11 +103,11 @@
     }));
   }
 
-  ["f-min", "f-max", "f-desc"].forEach(id => $(id).addEventListener("input", desenhar));
-  ["f-cidade", "f-tipo", "f-mod", "f-novos"].forEach(id => $(id).addEventListener("change", desenhar));
+  ["f-min", "f-max", "f-desc"].forEach(id => $(id).addEventListener("input", () => desenhar(true)));
+  ["f-cidade", "f-tipo", "f-mod", "f-novos"].forEach(id => $(id).addEventListener("change", () => desenhar(true)));
   $("limpar").addEventListener("click", () => {
     ["f-min", "f-max", "f-desc"].forEach(id => $(id).value = "");
-    $("f-cidade").value = $("f-tipo").value = $("f-mod").value = ""; $("f-novos").checked = false; desenhar();
+    $("f-cidade").value = $("f-tipo").value = $("f-mod").value = ""; $("f-novos").checked = false; desenhar(true);
   });
   function alternar(btn, painel) {
     btn.addEventListener("click", () => {
